@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"color": "#0C00F0",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "insanity (1.0)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}
