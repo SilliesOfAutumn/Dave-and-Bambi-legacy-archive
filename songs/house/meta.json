@@ -1,15 +1,11 @@
 {
-	"customValues": {
-		"version": "\"1.0\""
-	},
-	"color": "#4208FD",
 	"opponentModeAllowed": false,
 	"difficulties": [
-		"normal",
-		"easy"
+		"normal"
 	],
 	"icon": "face",
 	"coopAllowed": false,
+	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "House",
 	"needsVoices": true,

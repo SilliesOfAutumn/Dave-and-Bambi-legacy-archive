@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"easy",
+		"normal",
+		"hard",
+		"unnerfed"
+	],
+	"icon": "face",
+	"coopAllowed": false,
+	"color": "#000000",
+	"stepsPerBeat": 4,
+	"displayName": "Furiosity",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 250
+}
