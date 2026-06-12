@@ -21,7 +21,7 @@ function postCreate(){
 }
 
 function update(elapsed:Float){
-    var iconLerp:Float = FlxMath.bound(elapsed * (ModManiaHandler.MODVERSION == '3.0' ? 40 : 70), 0, 1);
+    var iconLerp:Float = FlxMath.bound(elapsed * (ModManiaHandler.MODVERSION == '3.0' ? 30 : 70), 0, 1);
     for (icon in [iconP1, iconP2]){
         icon.scale.set(FlxMath.lerp(icon.scale.x, 1, iconLerp), FlxMath.lerp(icon.scale.y, 1, iconLerp));
     }
