@@ -38,7 +38,7 @@ function beatHit(curBeat:Int){
                 icon.scale.x = FlxMath.remapToRange(healthBar.value, 2, 0, isRight ? 1.5 : 1.1, isRight ? 1.1 : 1.5);
                 icon.scale.y = FlxMath.remapToRange(healthBar.value, 2, 0, isRight ? 0.7 : 0.9, isRight ? 0.9 : 0.7);
             default:
-                icon.scale.set(1.2, 0.8);
+                icon.scale.set(1.3, 0.8);
         }
     }
 }

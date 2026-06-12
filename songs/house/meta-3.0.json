@@ -1,0 +1,18 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"instSuffix": "-3.0",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal",
+		"normal-tristan"
+	],
+	"icon": "face",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "House",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"vocalsSuffix": "-3.0",
+	"bpm": 230
+}
