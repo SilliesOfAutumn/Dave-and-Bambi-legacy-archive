@@ -1,3 +1,5 @@
+import flixel.FlxObject;
+
 class ModManiaHandler {
     //what dave and bambi version?
     public static var MODVERSION:String = '1.0';

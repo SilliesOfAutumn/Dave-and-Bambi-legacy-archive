@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-30" y="230" sprite="dave_sheet" scale="1.2">
+<character x="-30" y="230" sprite="dave_sheet" scale="1.2" icon="1.0/dave" color="#000000">
 	<anim name="idle" anim="Dave idle dance" loop="true"/>
 	<anim name="singDOWN" anim="Dave Sing Note DOWN" x="-1" y="-3"/>
 	<anim name="singRIGHT" anim="Dave Sing Note RIGHT"/>
