@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/" name="void (1.0)">
-	<sprite antialiasing="false" x="-598.095238105822" sprite="1.0/redsky" y="-251.428571431091" type="none" name="void 1.0"/>
+	<sprite antialiasing="false" x="-598.095238105822" sprite="1.0/dave/redsky" y="-251.428571431091" type="none" name="void 1.0"/>
 	<girlfriend/>
 	<dad/>
 	<boyfriend/>
