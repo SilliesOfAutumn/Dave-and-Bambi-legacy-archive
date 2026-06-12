@@ -1,8 +1,10 @@
 import ModManiaHandler;
 
 function postCreate(){
+    ModManiaHandler.MODVERSION = '${PlayState.variation}';
+    
     for (strumline in strumLines.members){
-        strumline.cpu = true;
+        strumline.cpu = !strumline.cpu;
         switch (ModManiaHandler.MODVERSION){ //this is for the receptor positions being offset like in the base game before being centered in 2.5 i think
             case 'alpha 3', 'alpha 8', 'alpha 9', '1.0':
                 strumline.onHit.add((hitEvent:NoteHitEvent) -> {
