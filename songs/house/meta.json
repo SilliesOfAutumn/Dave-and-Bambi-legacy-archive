@@ -9,7 +9,7 @@
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"variants": [
-		"1.0", "2.5"
+		"alpha 3", "alpha 8", "alpha 9", "1.0", "2.5", "3.0"
 	],
 	"bpm": 115
 }

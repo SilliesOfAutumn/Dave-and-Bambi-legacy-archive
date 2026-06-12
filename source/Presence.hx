@@ -13,7 +13,7 @@ class Presence {
     public static var imageKey:String = 'alpha 3 logo';
 
     public static function set(tt:String, bt:String, ?stamp:Date = sessionTimestamp, ?icon:String = 'alpha_3_icon', ?image:String = 'alpha_3_logo'){
-        trace('im setting it');
+        //trace('im setting it');
         DiscordUtil.init();
 
         topText = tt;
@@ -27,8 +27,8 @@ class Presence {
         else 
             trace('its null');
 
-        trace(DiscordUtil.lastPresence);
-        updatePresence();
+        //trace(DiscordUtil.lastPresence);
+        //updatePresence();
     }
 
     public static function updatePresence(){

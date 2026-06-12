@@ -1,8 +1,10 @@
 {
 	"opponentModeAllowed": false,
-	"difficulties": [],
-	"variants":[
-		"alpha 3", "alpha 8", "alpha 9", "1.0", "2.0"
+	"difficulties": [
+		"easy",
+		"normal",
+		"hard",
+		"unnerfed"
 	],
 	"icon": "face",
 	"coopAllowed": false,
@@ -11,5 +13,7 @@
 	"displayName": "Furiosity",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 250
+	"bpm": 250,
+	"instSuffix": "",
+	"vocalsSuffix": ""
 }
