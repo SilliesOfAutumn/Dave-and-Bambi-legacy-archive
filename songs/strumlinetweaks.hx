@@ -38,3 +38,17 @@ function postCreate(){
         }   
     }
 }
+
+function beatHit(curBeat:Int){
+    for (strumline in strumLines.members){
+        if (strumline.cpu){
+            switch(ModManiaHandler.MODVERSION){
+                case '2.0', '2.5':
+                    for (receptor in strumline){
+                        if (receptor.animation.curAnim.curFrame == (receptor.animation.curAnim.numFrames - 1))
+                            receptor.playAnim('static', false);
+                    }
+            }
+        }
+    }
+}
