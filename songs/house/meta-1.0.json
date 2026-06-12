@@ -1,7 +1,10 @@
 {
 	"opponentModeAllowed": false,
 	"difficulties": [
-		"easy", "normal", "hard", "unnerfed"
+		"easy",
+		"normal",
+		"hard",
+		"unnerfed"
 	],
 	"icon": "face",
 	"coopAllowed": false,

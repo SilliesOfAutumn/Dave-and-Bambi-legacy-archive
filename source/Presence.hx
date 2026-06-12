@@ -2,6 +2,7 @@ import funkin.backend.utils.DiscordUtil;
 
 import StringTools;
 
+//this class has brought me nothing but trouble
 class Presence {
     public static var topText:String = '';
     public static var bottomText:String = '';
@@ -11,14 +12,9 @@ class Presence {
     public static var iconKey:String = 'alpha 3 icon';
     public static var imageKey:String = 'alpha 3 logo';
 
-    public static function set(tt:String, bt:String, ?stamp:String = sessionTimestamp, ?icon:String = 'alpha 3 icon', ?image:String = 'alpha 3 logo'){
-        var specialChars:Array<String> = [' ', '.', ','];
-
-        for (txt in [icon, image]){
-            for (char in specialChars){
-                StringTools.replace(txt, char, '_');
-            }
-        }
+    public static function set(tt:String, bt:String, ?stamp:Date = sessionTimestamp, ?icon:String = 'alpha_3_icon', ?image:String = 'alpha_3_logo'){
+        trace('im setting it');
+        DiscordUtil.init();
 
         topText = tt;
         bottomText = bt;
@@ -26,11 +22,16 @@ class Presence {
         iconKey = icon;
         imageKey = image;
 
+        if (DiscordUtil.lastPresence != null) 
+            DiscordUtil.lastPresence.largeImageKey = imageKey;
+        else 
+            trace('its null');
+
+        trace(DiscordUtil.lastPresence);
         updatePresence();
-        if (DiscordUtil.lastPresence != null) DiscordUtil.lastPresence.largeImageKey = imageKey;
     }
 
     public static function updatePresence(){
-        DiscordUtil.changePresenceSince(topText, bottomText, iconKey, lastTimestamp);
+        DiscordUtil.changePresence(topText, bottomText);
     }
 }

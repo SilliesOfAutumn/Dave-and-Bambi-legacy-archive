@@ -1,6 +1,7 @@
 import flixel.FlxObject;
 import funkin.backend.system.framerate.Framerate;
 
+import funkin.backend.utils.DiscordUtil;
 import Presence;
 
 function new(){
@@ -8,10 +9,13 @@ function new(){
     FlxSprite.defaultAntialiasing = true;
 
     Presence.sessionTimestamp = Date.now();
-    Presence.set('loading up', 'Title screen');
 }
 
 function postStateSwitch(){
     for (i in [Framerate.codenameBuildField])
 		i.visible = false;
+}
+
+function postUpdate(elapsed){
+    //Presence.updatePresence();
 }

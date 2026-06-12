@@ -1,4 +1,5 @@
 import ModManiaHandler;
+import Presence;
 import funkin.options.Options;
 
 function postCreate(){
@@ -15,6 +16,8 @@ function postCreate(){
 
     missesTxt.visible = false;
     accuracyTxt.visible = false;
+
+    Presence.set('Playing ${PlayState.SONG.meta.displayName}', 'version: ${ModManiaHandler.MODVERSION}, difficulty: ${PlayState.difficulty}');
 }
 
 function update(elapsed:Float){
