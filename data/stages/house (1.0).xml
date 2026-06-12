@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/1.0/dave/house/" name="house (1.0)" zoom="0.9">
+	<sprite x="-488" scroll="0.9" sprite="sky" y="-392" type="none" name="sky"/>
+	<sprite x="-225" sprite="hills" y="-125" type="none" scale="1.25" name="hills"/>
+	<sprite x="-225" scroll="0.9" sprite="grass" y="-125" type="none" scale="1.2" name="grass"/>
+	<sprite scrolly="0.925" x="-225" sprite="gate" y="-125" type="none" scale="1.2" scrollx="0.93" name="gate"/>
+	<girlfriend x="201.799595352913" y="-10.0615321697887"/>
+	<dad x="11.4692226267524" y="-70.4531563790985"/>
+	<boyfriend x="601.074397877685" y="-58.3061668833063"/>
+</stage>
