@@ -2,7 +2,7 @@ import flixel.FlxObject;
 
 class ModManiaHandler {
     //what dave and bambi version?
-    public static var MODVERSION:String = '1.0';
+    public static var MODVERSION:String = 'alpha 3';
 
     //placebo story week, modifiers and dialogue are optional
     public static var playlist:Array<PlaylistTrack> = [];
