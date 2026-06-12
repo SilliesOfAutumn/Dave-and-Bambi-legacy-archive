@@ -1,11 +1,6 @@
 {
 	"opponentModeAllowed": false,
-	"difficulties": [
-		"easy",
-		"normal",
-		"hard",
-		"unnerfed"
-	],
+	"difficulties": [],
 	"icon": "face",
 	"coopAllowed": false,
 	"color": "#9271FD",
@@ -13,5 +8,8 @@
 	"displayName": "House",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
+	"variants": [
+		"1.0", "2.5"
+	],
 	"bpm": 115
 }
