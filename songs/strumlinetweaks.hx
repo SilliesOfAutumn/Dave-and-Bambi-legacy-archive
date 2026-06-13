@@ -18,12 +18,16 @@ function postCreate(){
                 }
             case '2.0', '2.5':
                 strumline.onHit.add((hitEvent:NoteHitEvent) -> {
-                    var receptor = hitEvent.note.__strum;
-                    receptor.lastHit = hitEvent.note.strumTime + (Conductor.crochet * 2);
+                    hitEvent.note.noSustainClip = true;
 
-                    hitEvent.preventStrumGlow();
+                    if (strumline.cpu){
+                        var receptor = hitEvent.note.__strum;
+                        receptor.lastHit = hitEvent.note.strumTime + (Conductor.crochet * 2);
 
-                    if (receptor.animation.curAnim.name != 'confirm') receptor.playAnim('confirm', false);
+                        hitEvent.preventStrumGlow();
+
+                        if (receptor.animation.curAnim.name != 'confirm') receptor.playAnim('confirm', false);
+                    }
                 });
             case '3.0':
                 strumline.onHit.add((hitEvent:NoteHitEvent) -> {

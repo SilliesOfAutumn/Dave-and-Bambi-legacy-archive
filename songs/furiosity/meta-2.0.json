@@ -13,7 +13,5 @@
 	"displayName": "Furiosity",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 250,
-	"instSuffix": "",
-	"vocalsSuffix": ""
+	"bpm": 250
 }
