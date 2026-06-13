@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" sprite="2.0/dave/Dave_Furiosity" color="#000000" noteSkin="2.0/NOTE_assets_3D">
+	<anim name="idle" anim="IDLE"/>
+	<anim name="singDOWN" anim="DOWN"/>
+	<anim name="singRIGHT" anim="RIGHT"/>
+	<anim name="singLEFT" anim="LEFT"/>
+	<anim name="singUP" anim="UP"/>
+</character>

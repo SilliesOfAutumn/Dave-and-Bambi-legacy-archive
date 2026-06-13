@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="300" sprite="2.0/dave/dave_sheet" icon="dave (2.0)">
+	<anim name="idle" anim="Dave Idle" fps="12" loop="true"/>
+	<anim name="singDOWN" anim="Dave Sing Down" x="-3" y="-26" fps="12"/>
+	<anim name="singRIGHT" anim="Dave Sing Right" x="-16" y="-2" fps="12"/>
+	<anim name="singLEFT" anim="Dave Sing Left" x="14" y="6" fps="12"/>
+	<anim name="singUP" anim="Dave Sing Up" x="21" y="6" fps="12"/>
+</character>
